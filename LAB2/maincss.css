@@ -1,0 +1,62 @@
+h1 
+{
+    font-family: arial, helvetica, sans-serif; /*font-family 사용*/
+    text-shadow: -4px 4px 6px dimgrey;
+    font-size: 25pt; /*size 사용*/
+    font-weight: bold; 
+}
+nav 
+{
+    font-weight: bold;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    display: inline;
+    text-align: center;
+}
+nav li a
+{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.active
+{
+    border-bottom: solid red;
+    border-top: solid red;
+    padding: 2px;
+}
+.fm
+{
+    border-top: solid black;
+    border-bottom: solid black;
+    margin-top: 20px;
+}
+.greenButton
+{
+    background-color: lightgreen;
+    width: 9em;
+    height: 2em;
+    
+    
+}
+.cancel
+{
+    background-color: red;
+    width: 9em;
+    height: 2em;
+    
+}
+.signupButton
+{
+    background-color: lightblue;
+    width: 9em;
+    height: 2em;
+}
