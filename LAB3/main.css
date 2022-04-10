@@ -1,0 +1,119 @@
+h1 
+{
+    font-family: arial, helvetica, sans-serif; /*font-family 사용*/
+    text-shadow: -4px 4px 6px dimgrey;
+    font-size: 25pt; /*size 사용*/
+    font-weight: bold; 
+}
+nav 
+{
+    font-weight: bold;
+}
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    display: inline;
+    
+}
+nav li a
+{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.active
+{
+    border-bottom: solid red;
+    border-top: solid red;
+    padding: 2px;
+}
+.fm
+{
+    border-top: solid black;
+    border-bottom: solid black;
+    margin-top: 20px;
+}
+.greenButton
+{
+    background-color: lightgreen;
+    width: 9em;
+    height: 2em;
+    
+    
+}
+.cancel
+{
+    background-color: red;
+    width: 9em;
+    height: 2em;
+    
+}
+.signupButton
+{
+    background-color: lightblue;
+    width: 9em;
+    height: 2em;
+}
+
+/* LAB3 수정 */
+
+.indexPosition 
+{
+    max-width: 1020px; /* Width 존재하기 */
+    margin: auto;
+    
+}
+.headerLine
+{
+    width: 1020px;
+    height: 10px;
+    background-color: purple;
+}
+.headerAnimation
+{
+    position: relative;   
+    animation-name: firstAnimation; /* animation-name 사용 */
+    animation-duration: 2s; /* animation-duration 사용 */
+}
+@keyframes firstAnimation /* Keyframes 사용 */
+{
+    from {left: 600px;}
+    to {left: 0px;}
+}
+h2
+{
+    border-bottom: solid black;
+}
+.firstImage
+{
+    width: 150px;
+    height: 150px;
+    transition: width 2s, height 2s, transform 2s; /* Transition 사용 */
+    position: absolute;
+    
+}
+.firstImage:hover /* Hover 사용 */
+{
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+.secondImage
+{
+    width: 150px;
+    height: 150px;
+    transition: width 2s, height 2s; /* Transition 사용 */
+    margin-left: 300px;
+    position: absolute;
+}
+.secondImage:hover /* Hover 사용 */
+{
+    width: 200px;
+    height: 200px;  
+}
