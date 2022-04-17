@@ -1,0 +1,130 @@
+h1 
+{
+    font-family: arial, helvetica, sans-serif; 
+    text-shadow: -4px 4px 6px dimgrey;
+    font-size: 25pt; 
+    font-weight: bold; 
+}
+nav 
+{
+    font-weight: bold; 
+}
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li
+{
+    display: inline;
+}
+nav li a
+{
+    text-decoration: none;
+    color: black;
+}
+.active
+{
+    border-bottom: solid red;
+    border-top: solid red;
+}
+.fm
+{
+    border-top: solid black;
+    border-bottom: solid black;
+    margin-top: 20px;
+}
+.greenButton
+{
+    background-color: lightgreen;
+    width: 9em;
+    height: 2em;      
+}
+.cancel
+{
+    background-color: red;
+    width: 9em;
+    height: 2em;
+    
+}
+.signupButton
+{
+    background-color: lightblue;
+    width: 9em;
+    height: 2em;
+}
+hr
+{
+    border-bottom: 1px solid #000;
+}
+.firstImage, .secondImage, .thirdImage, .fourthImage
+{
+    width: 100px;
+    height: 100px;
+    
+
+}
+@media screen and (max-width:480px) {
+    .navbarIndex, .column, h2, h3{
+        text-align: center;
+        flex-direction: column;  /* flex-direction 사용 */
+    }
+}
+@media screen and (min-width:481px) and (max-width:800px){
+    .navbarIndex, h2, h3 {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (min-width:481px) and (max-width:800px){
+    .column{
+        flex:45%;
+        max-width: 45%;
+    }
+}
+.text 
+{
+    column-count: 2;
+    column-rule: 1px outset black;
+    text-align: justify;
+    vertical-align: middle;
+}
+h2, h3
+{
+    border-bottom: 1px solid #000;
+}
+.navbarIndex
+{
+    display: flex;
+    justify-content: flex-start; /* justify-content 사용 */
+}
+.navbarIndex a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding: 1px 5px;
+}
+.activePage 
+{
+    border-bottom: solid red;
+    border-top: solid red;
+}
+.row 
+{
+    display: flex;
+}
+.column
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column img
+{
+    margin-top: 8px;
+    padding: 10px;
+    vertical-align: middle;  /* Vertical */
+}
+* {
+  box-sizing: border-box;
+}
